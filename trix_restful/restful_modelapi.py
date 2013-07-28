@@ -1,7 +1,7 @@
 from types import MethodType
 from inspect import getmodule
 
-from ..simplified.modelapi import _require_metaattr
+from trix_simplified.modelapi import _require_metaattr
 from restful_api import restful_api
 from searchform import _create_seachform
 from editform import _create_editform

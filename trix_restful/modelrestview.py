@@ -1,6 +1,6 @@
 from django.http import HttpResponseBadRequest, HttpResponse
 
-from ..simplified import PermissionDenied, SimplifiedException, InvalidUsername
+from trix_simplified import PermissionDenied, SimplifiedException, InvalidUsername
 from restview import RestfulView, extjswrap
 from serializers import (serializers, SerializableResult,
                          ErrorMsgSerializableResult,
